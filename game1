@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game1.css">
+    <title>Ender</title>
+</head>
+<body>
+    <div class="container">
+        <div id="quiz">
+          <h1><span>E</span>nder<i class="far fa-question-circle"></i></h1>
+          <div id="question-container"></div>
+          <h3 id="score"></h3>
+          <div class="choices">
+            <button id="guess0" class="btn">        
+              <p id="choice0"></p>
+            </button>
+            <button id="guess1" class="btn">
+              <p id="choice1"></p>
+            </button>
+            <button id="guess2" class="btn">
+              <p id="choice2"></p>
+            </button>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="game.js"></script>
