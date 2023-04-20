@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+background-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flash {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 7% 12% 5%;
+}
+
+.start {
+    margin-left: 29%;
+    animation-duration: 1.9s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+@keyframes clignoter {
+    0%   { color:#000000; }
+    40%   {color:#fff; }
+    100% { opacity:#000000; }
+}
