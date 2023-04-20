@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    background-color: #0B1626;
+}
+
+h1 {
+    margin: 2% 24% 0% 24%;
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+p {
+    color: #fff;
+    font-family: 'Neucha', cursive;
+    font-size: 29px;
+}
+
+.enter {
+    margin: -5px 0px 18px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;   
+    height: 100px;
+    color: #fff;
+    cursor: pointer;overflow: hidden;
+    position: relative;
+    background-color: #284F77;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+.buttonspan {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 28px;
+}
+
+.button .buttonspan {
+    position: relative;
+    z-index: 1;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    background: #6E8BD2 ;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+
+.button:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+.bulle {
+    border-radius: 20px;
+    background-color: #284F77;
+    padding: 15px;
+    width: 78%;
+    margin: 4% 10%;
+}
